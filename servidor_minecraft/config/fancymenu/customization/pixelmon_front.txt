@@ -1,0 +1,363 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 862
+  action = autoscale
+  basewidth = 1309
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=502322%
+  orientation = bottom-left
+  x = 12
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=502322%
+  width = 198
+  action = resizebutton
+  height = 23
+}
+
+customization {
+  identifier = %id=502322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\pixelmon_resources\discord_hover.png
+  backgroundnormal = config\fancymenu\pixelmon_resources\discord_normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 195
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 230
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\pixelmon_resources\clear_back.png
+  backgroundnormal = config\fancymenu\pixelmon_resources\clear_back.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label = §6Options
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 226
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 230
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Quit
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\pixelmon_resources\clear_back.png
+  backgroundnormal = config\fancymenu\pixelmon_resources\clear_back.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = §6Quit
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 175
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 230
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\pixelmon_resources\clear_back.png
+  backgroundnormal = config\fancymenu\pixelmon_resources\clear_back.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = sethoverlabel
+  label = §6Language
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 124
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 230
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\pixelmon_resources\clear_back.png
+  backgroundnormal = config\fancymenu\pixelmon_resources\clear_back.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = §6Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 144
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 230
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\pixelmon_resources\clear_back.png
+  backgroundnormal = config\fancymenu\pixelmon_resources\clear_back.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = §6Multiplayer
+}
+
+customization {
+  path = config/fancymenu/pixelmon_resources/topbar-slice.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = 97543bf6-69e0-4d46-86d4-4dffaaf9ecce1653070275433
+  y = 0
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/pixelmon_resources/reforged-logo.png
+  orientation = top-left
+  x = 56
+  width = 262
+  action = addtexture
+  actionid = 6d0f2bbc-ace2-47b7-a5b6-fde122beeccb1653070275433
+  y = 15
+  height = 93
+}
+
+customization {
+  path = config/fancymenu/pixelmon_resources/icon-bar.png
+  orientation = bottom-left
+  x = 0
+  width = 228
+  action = addtexture
+  actionid = 444d71c2-8ee9-43d9-9363-5ef7299376611653070275434
+  y = -169
+  height = 62
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\pixelmon_resources\node_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 12
+  width = 198
+  actionid = e0a064da-0f66-4d9d-8089-c1e93ea0cf121653070275434
+  action = addbutton
+  y = -80
+  backgroundnormal = config\fancymenu\pixelmon_resources\node_normal.png
+  value = https://nodecraft.com/r/pixelmon
+  height = 23
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\pixelmon_resources\wiki_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 43
+  width = 20
+  actionid = d604dc1a-e62e-463b-a68e-e65fa2a67a9b1653070275437
+  action = addbutton
+  y = -157
+  backgroundnormal = config\fancymenu\pixelmon_resources\wiki_normal.png
+  value = https://pixelmonmod.com/wiki
+  height = 38
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openfile
+  backgroundhovered = config\fancymenu\pixelmon_resources\logs_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 98
+  width = 25
+  actionid = 840324dc-46d5-491b-9927-fd58ff88bc7f1653070275437
+  action = addbutton
+  y = -157
+  backgroundnormal = config\fancymenu\pixelmon_resources\logs_normal.png
+  value = logs
+  height = 38
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\pixelmon_resources\website_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 151
+  width = 39
+  actionid = 669690b3-e37c-4118-8571-d836aa2b5b971653070275437
+  action = addbutton
+  y = -157
+  backgroundnormal = config\fancymenu\pixelmon_resources\website_normal.png
+  value = https://pixelmonmod.com
+  height = 38
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 117
+  action = addtext
+  actionid = da0e8131-40ab-4034-8b65-2b4fca7aceaa1653070275438
+  y = 10
+  scale = 1.0
+  alignment = left
+  value = Mods Loaded (%loadedmods% / %totalmods%)
+}
+
+customization {
+  orientation = bottom-right
+  shadow = true
+  x = -2
+  action = addtext
+  actionid = dae02c29-9a0a-4d59-a302-db953a23f5b31653070275439
+  y = -24
+  scale = 1.0
+  alignment = right
+  value = Forge %version:forge% for Minecraft %mcversion%
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+

@@ -1,0 +1,42 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/pixelmon_resources/reforged-bg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addwebtexture
+  actionid = a656c012-c737-403c-8039-f57aae21a6691653070672229
+  y = 0
+  url = https://download.nodecdn.net/containers/reforged/gui/background/reforged-bg.png
+  height = %guiheight%
+}
+
+customization {
+  path = config/fancymenu/pixelmon_resources/sidebar-slice_full.png
+  orientation = top-left
+  x = 0
+  width = 240
+  action = addtexture
+  actionid = dd60e0da-f7cd-4aba-b47e-8f6447777f421653070672229
+  y = 0
+  height = %guiheight%
+}
+

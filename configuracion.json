@@ -1,0 +1,1 @@
+{"server_type": "forge", "server_version": "1.16.5", "version_jdk": "11", "gbs_de_ram_a_usar": 12, "servicio_a_usar": "playit", "actualizaciones_discord": false, "webhook_de_discord": "", "iniciando_servidor": false, "decir_ip": false, "usar_dropbox": false, "token_dropbox": "", "debug_mode": false, "flags": "-Xms2G -Xmx12G", "usar_lfs": false}
